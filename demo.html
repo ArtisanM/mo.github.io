@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <video controls width="100%" poster="video-poster.jpg">
+            <!-- 提供视频文件的URL -->
+            <source src="https://mmvmaterial.wxqcloud.qq.com/material/etc/ui_creation_demo_video_smart_clip_20230306152634.mp4" type="video/mp4">
+            <!-- 提供备用的视频文件格式，以确保兼容性 -->
+            <source src="https://mmvmaterial.wxqcloud.qq.com/material/etc/ui_creation_demo_video_smart_clip_20230306152634.mp4" type="video/webm">
+            <!-- 如果浏览器不支持HTML5视频，则提供备用文本信息 -->
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
